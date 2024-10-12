@@ -4,7 +4,7 @@
         <ImplicitUsings>false</ImplicitUsings>
         <Nullable>disable</Nullable>
         <LangVersion>default</LangVersion>
-        <Version>0.1</Version>
+        <Version>0.1.1</Version>
         <Title>ExceptionsWithReturnCode</Title>
         <Authors>Benedikt Papiorek</Authors>
         <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
@@ -16,7 +16,7 @@
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <AssemblyName>MyDevTime.ExceptionsWithReturnCode</AssemblyName>
         <Product>MyDevTime.ExceptionsWithReturnCode</Product>
-        <TargetFrameworks>net8.0;netstandard2.1</TargetFrameworks>
+        <TargetFrameworks>net8.0;netstandard2.1;net9.0</TargetFrameworks>
         <RepositoryUrl>https://github.com/Akkyen/MyDevTime.ExceptionsWithReturnCode</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
     </PropertyGroup>
