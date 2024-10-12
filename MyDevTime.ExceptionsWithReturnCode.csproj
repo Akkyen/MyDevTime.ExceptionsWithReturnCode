@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <ImplicitUsings>false</ImplicitUsings>
+        <Nullable>disable</Nullable>
+        <LangVersion>default</LangVersion>
+        <Version>0.1</Version>
+        <Title>ExceptionsWithReturnCode</Title>
+        <Authors>Benedikt Papiorek</Authors>
+        <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+        <RootNamespace>MyDevTime.ExceptionsWithReturnCode</RootNamespace>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageId>MyDevTime.ExceptionsWithReturnCode</PackageId>
+        <Copyright>Benedikt Papiorek</Copyright>
+        <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <AssemblyName>MyDevTime.ExceptionsWithReturnCode</AssemblyName>
+        <Product>MyDevTime.ExceptionsWithReturnCode</Product>
+        <TargetFrameworks>net8.0;netstandard2.1</TargetFrameworks>
+        <RepositoryUrl>https://github.com/Akkyen/MyDevTime.ExceptionsWithReturnCode</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="README.md" Pack="true" PackagePath="$(PackageReadmeFile)"/>
+        <None Include="LICENSE.txt" Pack="true" PackagePath="$(PackageLicenseFile)"/>
+    </ItemGroup>
+
+</Project>
